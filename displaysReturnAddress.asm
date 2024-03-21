@@ -28,8 +28,8 @@ main PROC
 main ENDP
 
 subRoutine PROC
-	mov  eax, esp		; Returning address was just pushed to the top of the stack to which esp is pointing
-	call WriteHex		; Displays hex value stored in eaxs
+	mov  eax, esp			; Returning address was just pushed to the top of the stack to which esp is pointing
+	call WriteHex			; Displays hex value stored in eaxs
 	ret
 subRoutine ENDP
 
